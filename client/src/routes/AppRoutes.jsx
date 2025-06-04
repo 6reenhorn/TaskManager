@@ -12,7 +12,7 @@ const Layout = () => {
       <NavBar isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
       <div
         className={`transition-all duration-300 ${
-          isSidebarOpen ? "ml-64" : "ml-0"
+          isSidebarOpen ? "ml-78" : "ml-0"
         }`}
       >
         <Outlet context={{ isSidebarOpen }} />
