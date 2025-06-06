@@ -4,7 +4,7 @@ export const NavBar = ({ isSidebarOpen, toggleSidebar }) => {
     return (
         <div className="relative w-full">
             <div className="navbar w-full py-5 px-4 pr-7 flex justify-between items-center">
-                <div onClick={toggleSidebar} className="cursor-pointer">
+                <div onClick={toggleSidebar} className="cursor-pointer flex justify-between items-center space-x-2 w-[25.4%]">
                     <svg width="30" height="30" viewBox="0 0 24 24" fill="none">
                         <path d="M4 9C3.58579 9 3.25 9.33579 3.25 9.75C3.25 10.1642 3.58579 10.5 4 10.5L20 10.5C20.4142 10.5 20.75 10.1642 20.75 9.75C20.75 9.33579 20.4142 9 20 9L4 9Z" fill="#343C54"/>
                         <path d="M4 18C3.58579 18 3.25 18.3358 3.25 18.75C3.25 19.1642 3.58579 19.5 4 19.5L20 19.5C20.4142 19.5 20.75 19.1642 20.75 18.75C20.75 18.3358 20.4142 18 20 18L4 18Z" fill="#343C54"/>
@@ -13,6 +13,12 @@ export const NavBar = ({ isSidebarOpen, toggleSidebar }) => {
                             <path d="M3.25 14.25C3.25 13.8358 3.58579 13.5 4 13.5L15 13.5C15.4142 13.5 15.75 13.8358 15.75 14.25C15.75 14.6642 15.4142 15 15 15L4 15C3.58579 15 3.25 14.6642 3.25 14.25Z" fill="#343C54"/>
                         </g>
                     </svg>
+                    <div className='text-[13px] font-[550] text-[#343C54] flex items-center border-l-[2px] border-r-[2px] rounded-tl-[3px] rounded-br-[3px] px-2'>
+                        <svg width="20px" height="20px" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"></path>
+                        </svg>
+                        <button className='navbar-add-task-btn py-[2px] pr-1'>Add task</button>
+                    </div>
                 </div>
                 <div>
                     <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,14 +27,14 @@ export const NavBar = ({ isSidebarOpen, toggleSidebar }) => {
                     </svg>
                 </div>
             </div>
-            {/* Sidebar */}
-            <div className={`fixed top-20 left-0 h-full w-80 bg-transparent shadow-lg transform transition-transform duration-300 z-50 ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}>
-                <div className="user-section p-5 font-semibold text-[15p6] flex items-center space-x-3">
+            {/* SideBar */}
+            <div className={`fixed top-18 left-0 h-full w-80 bg-transparent shadow-lg transform transition-transform duration-300 z-50 ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+                <div className="user-section p-5 font-semibold text-[15px] flex items-center space-x-3">
                     <div className='user-pfp'></div>
                     <p>John Cyril Espina</p>
                 </div>
                 <div className='flex flex-col justify-between h-[85%]'>
-                    <ul className="p-5 space-y-4 text-[15px]">
+                    <ul className="p-5 space-y-4 text-[14px]">
                         <li>Dashboard</li>
                         <li>Tasks</li>
                     </ul>
