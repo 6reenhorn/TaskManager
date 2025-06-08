@@ -7,7 +7,7 @@ export const Dashboard = () => {
                     {/* Overview */}
                     <div className="bg-transparent rounded-sm shadow-sm">
                         <h3 className="text-[18px] font-[500] px-4 py-3 shadow">Week Overview</h3>
-                        <div className="overview-dashboard-section flex justify-between items-center h-[77%] px-10">
+                        <div className="overview-dashboard-section flex justify-between items-center h-[77%] px-14">
                             <div className="flex flex-col justify-around items-center">
                                 <p>
                                     3
