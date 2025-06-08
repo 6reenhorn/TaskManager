@@ -6,7 +6,7 @@ export const Dashboard = () => {
                 <div className="grid grid-cols-2 gap-6">
                     {/* Overview */}
                     <div className="bg-transparent rounded-sm shadow-sm">
-                        <h3 className="text-[18px] font-[500] px-4 py-3 shadow">Week Overview</h3>
+                        <h3 className="text-[18px] font-[500] px-4 py-3 shadow">Today's Overview</h3>
                         <div className="overview-dashboard-section flex justify-between items-center h-[77%] px-14">
                             <div className="flex flex-col justify-around items-center">
                                 <p>
@@ -36,7 +36,20 @@ export const Dashboard = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-gray-200 rounded shadow p-4">Row 1, Col 2</div>
+                    {/* Upcoming deadlines */}
+                    <div className="bg-transparent rounded-sm shadow-sm">
+                        <div className="flex justify-between items-center px-4 py-3 shadow">
+                            <h3 className="text-[18px] font-[500]">Upcoming Deadlines</h3>
+                            <div className="border-l-[2px] border-r-[2px] rounded-tl-[3px] rounded-br-[3px] px-2 py-1 text-[14px] font-[500]">
+                                <select name="upcoming-deadlines-filter" id="upcoming-deadlines-filter">
+                                    <option value="low">Low</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="high">High</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div></div>
+                    </div>
                 </div>
                 {/* Row 2: 3 columns */}
                 <div className="grid grid-cols-3 gap-6">
