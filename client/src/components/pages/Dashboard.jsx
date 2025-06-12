@@ -117,7 +117,14 @@ export const Dashboard = () => {
                 </div>
                 {/* Row 2: 3 columns */}
                 <div className="grid grid-cols-3 gap-6">
-                    <div className="bg-gray-200 rounded shadow p-4">Row 2, Col 1</div>
+                    {/* Statistics */}
+                    <div className="bg-transparent rounded-sm shadow-sm">
+                        <h3 className="text-[18px] font-[500] px-4 py-3 shadow">Statistics</h3>
+                        <div>
+
+                        </div>
+                    </div>
+
                     <div className="bg-gray-200 rounded shadow p-4">Row 2, Col 2</div>
                     <div className="bg-gray-200 rounded shadow p-4">Row 2, Col 3</div>
                 </div>
