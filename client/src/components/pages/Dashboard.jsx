@@ -120,8 +120,24 @@ export const Dashboard = () => {
                     {/* Statistics */}
                     <div className="bg-transparent rounded-sm shadow-sm">
                         <h3 className="text-[18px] font-[500] px-4 py-3 shadow">Statistics</h3>
-                        <div>
-
+                        <div className="flex flex-col justify-between h-[72%]">
+                            <div className="grid grid-cols-2 w-full h-full justify-center items-center">
+                                <div className="flex flex-col justify-center items-center gap-1">
+                                    <div className="text-[35px] font-[550] border rounded-[50%] px-3 py-1">79</div>
+                                    <p className="text-[14px]">Total Tasks</p>
+                                </div>
+                                <div>
+                                    <div>Completed:</div>
+                                    <div>Pending:</div>
+                                </div>
+                            </div>
+                            <div className="w-full px-4 text-[14px]">
+                                <div>Completion Rate:</div>
+                                <div className="flex justify-between items-center">
+                                    <div className="dashboard-progress-bar w-[90%] h-[6px] border rounded-sm mt-[3px] overflow-hidden"></div>
+                                    <div className="font-semibold">80%</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
