@@ -48,20 +48,18 @@ export const Dashboard = () => {
                                 </select>
                             </div>
                         </div>
-                        <div className="upcoming-deadlines-dashboard-section pt-[5px] max-h-[186px]
+                        <div className="upcoming-deadlines-dashboard-section py-[10px] max-h-[186px]
                          overflow-y-scroll overflow-hidden px-4">
-                            <ul>
+                            <ul className="text-[14px]">
                                 <li>
                                     <div>
                                         <span>1:</span>
                                         <p>Task Title First</p>
                                     </div>
                                     <div>
-                                        <span>Due:</span>
                                         <p>00:00:00</p>
                                     </div>
                                     <div>
-                                        <span>Priority:</span>
                                         <p>High</p>
                                     </div>
                                 </li>
@@ -71,11 +69,9 @@ export const Dashboard = () => {
                                         <p>Task Title</p>
                                     </div>
                                     <div>
-                                        <span>Due:</span>
                                         <p>00:00:00</p>
                                     </div>
                                     <div>
-                                        <span>Priority:</span>
                                         <p>Medium</p>
                                     </div>
                                 </li>
@@ -85,11 +81,9 @@ export const Dashboard = () => {
                                         <p>Task Title</p>
                                     </div>
                                     <div>
-                                        <span>Due:</span>
                                         <p>00:00:00</p>
                                     </div>
                                     <div>
-                                        <span>Priority:</span>
                                         <p>Low</p>
                                     </div>
                                 </li>
@@ -99,11 +93,9 @@ export const Dashboard = () => {
                                         <p>Task Title</p>
                                     </div>
                                     <div>
-                                        <span>Due:</span>
                                         <p>00:00:00</p>
                                     </div>
                                     <div>
-                                        <span>Priority:</span>
                                         <p>High</p>
                                     </div>
                                 </li>
@@ -113,11 +105,9 @@ export const Dashboard = () => {
                                         <p>Task Title</p>
                                     </div>
                                     <div>
-                                        <span>Due:</span>
                                         <p>00:00:00</p>
                                     </div>
                                     <div>
-                                        <span>Priority:</span>
                                         <p>High</p>
                                     </div>
                                 </li>

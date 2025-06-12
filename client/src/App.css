@@ -74,7 +74,7 @@ body {
 /* Upcoming deadlines */
 .upcoming-deadlines-dashboard-section ul li {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: 2fr 1.2fr 1fr; 
     gap: 15px;
     align-items: center;
     padding: 10px 0 10px 0;
