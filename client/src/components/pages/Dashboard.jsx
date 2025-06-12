@@ -126,9 +126,21 @@ export const Dashboard = () => {
                                     <div className="text-[35px] font-[550] border rounded-[50%] px-3 py-1">79</div>
                                     <p className="text-[14px]">Total Tasks</p>
                                 </div>
-                                <div>
-                                    <div>Completed:</div>
-                                    <div>Pending:</div>
+                                <div className="text-[15px] grid grid-cols-2 gap-2 mb-6">
+                                    <div>
+                                        <div className="flex items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 2048 2048"><path fill="currentColor" d="m1491 595l90 90l-749 749l-365-365l90-90l275 275l659-659zM1024 0q141 0 272 36t245 103t207 160t160 208t103 245t37 272q0 141-36 272t-103 245t-160 207t-208 160t-245 103t-272 37q-141 0-272-36t-245-103t-207-160t-160-208t-103-244t-37-273q0-141 36-272t103-245t160-207t208-160T751 37t273-37zm0 1920q123 0 237-32t214-90t182-141t140-181t91-214t32-238q0-123-32-237t-90-214t-141-182t-181-140t-214-91t-238-32q-123 0-237 32t-214 90t-182 141t-140 181t-91 214t-32 238q0 123 32 237t90 214t141 182t181 140t214 91t238 32z"/></svg>
+                                            <p>Completed:</p>
+                                        </div>
+                                        <div className="flex items-center gap-1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M12 21a9 9 0 1 0 0-18a9 9 0 0 0 0 18Zm11-9c0 6.075-4.925 11-11 11S1 18.075 1 12S5.925 1 12 1s11 4.925 11 11Zm-9.996 1.004H11V11h2.004v2.004Zm-5 0H6V11h2.004v2.004Zm10 0H16V11h2.004v2.004Z"/></svg>
+                                            <p>Pending:</p>
+                                        </div>
+                                    </div>
+                                    <div className="font-semibold">
+                                        <p>10</p>
+                                        <p>69</p>
+                                    </div>
                                 </div>
                             </div>
                             <div className="w-full px-4 text-[14px]">
