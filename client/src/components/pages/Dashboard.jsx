@@ -1,4 +1,5 @@
 import { TaskCompletionChart } from "../subcomponents/dashboardcomponents/TaskCompletionChart"
+import { PriorityPieChart } from "../subcomponents/dashboardcomponents/PriorityPieChart"
 
 export const Dashboard = () => {
     return (
@@ -158,7 +159,9 @@ export const Dashboard = () => {
                     <div className="">
                         <TaskCompletionChart />
                     </div>
-                    <div className="bg-gray-200 rounded shadow p-4">Row 2, Col 3</div>
+                    <div className="">
+                        <PriorityPieChart />
+                    </div>
                 </div>
                 {/* Row 3: 2 columns */}
                 <div className="grid grid-cols-2 gap-6">
