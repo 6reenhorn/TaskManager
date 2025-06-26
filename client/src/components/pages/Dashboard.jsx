@@ -1,3 +1,5 @@
+import { TaskCompletionChart } from "../subcomponents/dashboardcomponents/TaskCompletionChart"
+
 export const Dashboard = () => {
     return (
         <div className="w-full h-[90vh] p-6 pt-9 flex justify-center items-center">
@@ -152,8 +154,10 @@ export const Dashboard = () => {
                             </div>
                         </div>
                     </div>
-
-                    <div className="bg-gray-200 rounded shadow p-4">Row 2, Col 2</div>
+                    {/* Task Cocompletion chart */}
+                    <div className="">
+                        <TaskCompletionChart />
+                    </div>
                     <div className="bg-gray-200 rounded shadow p-4">Row 2, Col 3</div>
                 </div>
                 {/* Row 3: 2 columns */}
