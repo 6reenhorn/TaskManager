@@ -18,7 +18,7 @@ export const PriorityPieChart = () => {
             data={priorityData}
             cx="50%"
             cy="50%"
-            outerRadius={80}
+            outerRadius={65}
             dataKey="value"
             label={({ name, percent }) =>
               `${name} (${(percent * 100).toFixed(0)}%)`
