@@ -52,7 +52,7 @@ export const Dashboard = () => {
                             </div>
                         </div>
                         <div className="upcoming-deadlines-dashboard-section py-[10px] max-h-[186px]
-                         overflow-y-scroll overflow-hidden px-4 mt-3">
+                         overflow-y-scroll overflow-hidden px-4 mt-[14px]">
                             <ul className="text-[14px]">
                                 <li>
                                     <div>
@@ -160,7 +160,8 @@ export const Dashboard = () => {
                         <h3 className="text-[18px] font-[500] px-4 py-3 shadow mb-2">Task Completion Over Time</h3>
                         <TaskCompletionChart />
                     </div>
-                    <div className="bg-transparent">
+                    <div className="bg-transparent rounded-sm shadow-sm">
+                        <h3 className="text-[18px] font-[500] px-4 py-3 shadow">Task Priority Distribution</h3>
                         <PriorityPieChart />
                     </div>
                 </div>
