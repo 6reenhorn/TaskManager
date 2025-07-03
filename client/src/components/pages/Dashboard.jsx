@@ -156,10 +156,11 @@ export const Dashboard = () => {
                         </div>
                     </div>
                     {/* Task Cocompletion chart */}
-                    <div className="">
+                    <div className="bg-transparent rounded-sm shadow-sm">
+                        <h3 className="text-[18px] font-[500] px-4 py-3 shadow mb-2">Task Completion Over Time</h3>
                         <TaskCompletionChart />
                     </div>
-                    <div className="">
+                    <div className="bg-red-400">
                         <PriorityPieChart />
                     </div>
                 </div>
