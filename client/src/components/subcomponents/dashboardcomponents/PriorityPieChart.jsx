@@ -6,12 +6,11 @@ const priorityData = [
   { name: 'Low', value: 10 },
 ];
 
-const COLORS = ['#ef4444', '#facc15', '#3b82f6']; // red, yellow, blue
+const COLORS = ['#ef4444', '#facc15', '#3b82f6']; 
 
 export const PriorityPieChart = () => {
   return (
     <div className="w-full h-[95%]">
-      {/* <h2 className="text-lg font-semibold mb-2">Task Priority Distribution</h2> */}
       <ResponsiveContainer width="100%" height="85%">
         <PieChart>
           <Pie
