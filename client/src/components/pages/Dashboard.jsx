@@ -1,7 +1,14 @@
 import { TaskCompletionChart } from "../subcomponents/dashboardcomponents/TaskCompletionChart"
 import { PriorityPieChart } from "../subcomponents/dashboardcomponents/PriorityPieChart"
+import MiniCalendar from '../subcomponents/dashboardcomponents/MiniCalendar'
 
 export const Dashboard = () => {
+
+    const handleDateSelect = (dateKey, tasks) => {
+        console.log(`Tasks on ${dateKey}:`, tasks)
+        // Open modal or display below
+  } 
+
     return (
         <div className="w-full h-[90vh] p-6 pt-9 flex justify-center items-center">
             <div className="grid gap-7 w-[95%] h-full grid-rows-3 ">
@@ -169,6 +176,7 @@ export const Dashboard = () => {
                 <div className="grid grid-cols-2 gap-6">
                     <div className="bg-transparent rounded-sm shadow-sm">
                         <h3 className="text-[18px] font-[500] px-4 py-3 shadow">Calendar</h3>
+                        <MiniCalendar onDateSelect={handleDateSelect} />
                     </div>
                     <div className="bg-gray-200 rounded shadow p-4">Row 3, Col 2</div>
                 </div>
