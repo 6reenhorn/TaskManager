@@ -25,7 +25,7 @@ export default function MiniCalendar({ onDateSelect }) {
   }
 
   return (
-    <div className="bg-transparent text-[12px] w-full rounded-xl shadow-md overflow-y-scroll max-h-[245px]">
+    <div className="bg-transparent text-[12px] w-full shadow-md overflow-y-scroll max-h-[245px]">
       <Calendar
         onClickDay={handleDayClick}
         value={value}
