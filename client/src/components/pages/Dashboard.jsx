@@ -178,7 +178,10 @@ export const Dashboard = () => {
                         <h3 className="text-[18px] font-[500] px-4 py-3 shadow">Calendar</h3>
                         <MiniCalendar onDateSelect={handleDateSelect} />
                     </div>
-                    <div className="bg-gray-200 rounded shadow p-4">Row 3, Col 2</div>
+                    <div className="bg-transparent rounded-sm shadow-sm">
+                        <h3 className="text-[18px] font-[500] px-4 py-3 shadow">Activity History</h3>
+                        <div></div>
+                    </div>
                 </div>
             </div>
         </div>
