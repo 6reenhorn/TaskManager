@@ -180,7 +180,25 @@ export const Dashboard = () => {
                     </div>
                     <div className="bg-transparent rounded-sm shadow-sm">
                         <h3 className="text-[18px] font-[500] px-4 py-3 shadow">Activity History</h3>
-                        <div></div>
+                        <div className="activity-history-dashboard-section py-[7px] max-h-[245px] overflow-y-scroll overflow-hidden px-4 mt-[14px]">
+                            <ul className="text-[14px]">
+                                <li>
+                                    <div>Created</div>
+                                </li>
+                                <li>
+                                    <div>Completed</div>
+                                </li>
+                                <li>
+                                    <div>Created</div>
+                                </li>
+                                <li>
+                                    <div>Deleted</div>
+                                </li>
+                                <li>
+                                    <div>Created</div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
