@@ -180,22 +180,31 @@ export const Dashboard = () => {
                     </div>
                     <div className="bg-transparent rounded-sm shadow-sm">
                         <h3 className="text-[18px] font-[500] px-4 py-3 shadow">Activity History</h3>
-                        <div className="activity-history-dashboard-section py-[7px] max-h-[245px] overflow-y-scroll overflow-hidden px-4 mt-[14px]">
+                        <div className="activity-history-dashboard-section py-[10px] max-h-[220px] overflow-y-scroll overflow-hidden px-4 mt-[14px]">
                             <ul className="text-[14px]">
                                 <li>
-                                    <div>Created</div>
+                                    <div className="text-gray-700">Created</div>
+                                    <div>[ Task Title ] has been created</div>
                                 </li>
                                 <li>
-                                    <div>Completed</div>
+                                    <div className="text-green-600">Completed</div>
+                                    <div>[ Task Title ] has been completed</div>
                                 </li>
                                 <li>
-                                    <div>Created</div>
+                                    <div className="text-gray-700">Created</div>
+                                    <div>[ Task Title ] has been created</div>
                                 </li>
                                 <li>
-                                    <div>Deleted</div>
+                                    <div className="text-red-600">Deleted</div>
+                                    <div>[ Task Title ] has been deleted</div>
                                 </li>
                                 <li>
-                                    <div>Created</div>
+                                    <div className="text-gray-700">Created</div>
+                                    <div>[ Task Title ] has been created</div>
+                                </li>
+                                <li>
+                                    <div className="text-green-600">Completed</div>
+                                    <div>[ Task Title ] has been completed</div>
                                 </li>
                             </ul>
                         </div>
