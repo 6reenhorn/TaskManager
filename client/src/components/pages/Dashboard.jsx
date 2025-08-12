@@ -7,7 +7,7 @@ export const Dashboard = () => {
     const handleDateSelect = (dateKey, tasks) => {
         console.log(`Tasks on ${dateKey}:`, tasks)
         // Open modal or display below
-  } 
+    } 
 
     return (
         <div className="w-full h-[90vh] p-6 pt-9 flex justify-center items-center">
@@ -179,7 +179,26 @@ export const Dashboard = () => {
                         <MiniCalendar onDateSelect={handleDateSelect} />
                     </div>
                     <div className="bg-transparent rounded-sm shadow-sm">
-                        <h3 className="text-[18px] font-[500] px-4 py-3 shadow">Activity History</h3>
+                        <div className="flex justify-between items-center px-4 py-3 shadow">
+                            <h3 className="text-[18px] font-[500]">Activity History</h3>
+                            <div className="flex items-center gap-2">
+                                <div className="border-l-[2px] border-r-[2px] rounded-tl-[3px] rounded-br-[3px] px-2 py-1 text-[14px] font-[500]">
+                                    <select name="activity-history-filter" id="activity-history-filter">
+                                        <option value="today">Today</option>
+                                        <option value="this_week">This week</option>
+                                        <option value="last_30_days">Last 30 days</option>
+                                    </select>
+                                </div>
+                                <div className="border-l-[2px] border-r-[2px] rounded-tl-[3px] rounded-br-[3px] px-2 py-1 text-[14px] font-[500]">
+                                    <select name="activity-history-filter" id="activity-history-filter">
+                                        <option value="created">Created</option>
+                                        <option value="updated">Updated</option>
+                                        <option value="deleted">Deleted</option>
+                                        <option value="completed">Completed</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
                         <div className="activity-history-dashboard-section py-[10px] max-h-[220px] overflow-y-scroll overflow-hidden px-4 mt-[14px]">
                             <ul className="text-[14px]">
                                 <li>
