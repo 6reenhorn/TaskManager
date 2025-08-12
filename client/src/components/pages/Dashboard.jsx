@@ -184,27 +184,64 @@ export const Dashboard = () => {
                             <ul className="text-[14px]">
                                 <li>
                                     <div className="text-gray-700">Created</div>
+                                    <div>
+                                        <span>5</span>
+                                        <p>minutes ago</p>
+                                    </div>  
                                     <div>[ Task Title ] has been created</div>
                                 </li>
                                 <li>
                                     <div className="text-green-600">Completed</div>
+                                    <div>
+                                        <span>18</span>
+                                        <p>hours ago</p>
+                                    </div>
                                     <div>[ Task Title ] has been completed</div>
                                 </li>
                                 <li>
                                     <div className="text-gray-700">Created</div>
+                                    <div>
+                                        <span>Aug 12, 2025</span>
+                                        <p>-</p>
+                                        <span>3:49 PM</span>
+                                    </div>
                                     <div>[ Task Title ] has been created</div>
                                 </li>
                                 <li>
                                     <div className="text-red-600">Deleted</div>
+                                    <div>
+                                        <span>Aug 10, 2025</span>
+                                        <p>-</p>
+                                        <span>3:33 PM</span>
+                                    </div>
                                     <div>[ Task Title ] has been deleted</div>
                                 </li>
                                 <li>
                                     <div className="text-gray-700">Created</div>
+                                    <div>
+                                        <span>Aug 10, 2025</span>
+                                        <p>-</p>
+                                        <span>2:37 PM</span>
+                                    </div>
                                     <div>[ Task Title ] has been created</div>
                                 </li>
                                 <li>
                                     <div className="text-green-600">Completed</div>
+                                    <div>
+                                        <span>July 28, 2025</span>
+                                        <p>-</p>
+                                        <span>5:11 PM</span>
+                                    </div>
                                     <div>[ Task Title ] has been completed</div>
+                                </li>
+                                <li>
+                                    <div className="text-gray-700">Created</div>
+                                    <div>
+                                        <span>July 26, 2025</span>
+                                        <p>-</p>
+                                        <span>9:28 AM</span>
+                                    </div>
+                                    <div>[ Task Title ] has been created</div>
                                 </li>
                             </ul>
                         </div>

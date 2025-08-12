@@ -124,8 +124,13 @@ body {
 /*Activity history */
 .activity-history-dashboard-section ul li {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 2fr 3.2fr;
     gap: 15px; 
     align-items: center;
     padding: 10px 0 10px 0;
+}
+.activity-history-dashboard-section ul li div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
