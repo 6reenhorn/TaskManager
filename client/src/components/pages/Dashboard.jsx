@@ -1,8 +1,8 @@
-import { TaskCompletionChart } from "../subcomponents/dashboardcomponents/TaskCompletionChart"
-import { PriorityPieChart } from "../subcomponents/dashboardcomponents/PriorityPieChart"
-import MiniCalendar from '../subcomponents/dashboardcomponents/MiniCalendar'
-import { Overview } from '../subcomponents/dashboardcomponents/Overview'
-import { UpcomingDeadlines } from "../subcomponents/dashboardcomponents/UpcomingDeadlines"
+import { TaskCompletionChart } from "../subcomponents/dashboard/TaskCompletionChart"
+import { PriorityPieChart } from "../subcomponents/dashboard/PriorityPieChart"
+import MiniCalendar from '../subcomponents/dashboard/MiniCalendar'
+import { Overview } from '../subcomponents/dashboard/Overview'
+import { UpcomingDeadlines } from "../subcomponents/dashboard/UpcomingDeadlines"
 
 export const Dashboard = () => {
 
