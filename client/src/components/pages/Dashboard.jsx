@@ -1,6 +1,7 @@
 import { TaskCompletionChart } from "../subcomponents/dashboardcomponents/TaskCompletionChart"
 import { PriorityPieChart } from "../subcomponents/dashboardcomponents/PriorityPieChart"
 import MiniCalendar from '../subcomponents/dashboardcomponents/MiniCalendar'
+import { Overview } from '../subcomponents/dashboardcomponents/Overview'
 
 export const Dashboard = () => {
 
@@ -15,37 +16,7 @@ export const Dashboard = () => {
                 {/* Row 1: 2 columns */}
                 <div className="grid grid-cols-2 gap-6">
                     {/* Overview */}
-                    <div className="bg-transparent rounded-sm shadow-sm">
-                        <h3 className="text-[18px] font-[500] px-4 py-3 shadow">Today's Overview</h3>
-                        <div className="overview-dashboard-section flex justify-between items-center h-[79%] px-14">
-                            <div className="flex flex-col justify-around items-center">
-                                <p>
-                                    3
-                                </p>
-                                <p>
-                                    Tasks Due
-                                </p>
-                            </div>
-                            <div className="divider"></div>
-                            <div className="flex flex-col justify-between items-center">
-                                <p>
-                                    5
-                                </p>
-                                <p>
-                                    Tasks Completed
-                                </p>
-                            </div>
-                            <div className="divider"></div>
-                            <div className="flex flex-col justify-between items-center">
-                                <p>
-                                    7
-                                </p>
-                                <p>
-                                    Ongoing Tasks
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    <Overview />
                     {/* Upcoming deadlines */}
                     <div className="bg-transparent rounded-sm shadow-sm">
                         <div className="flex justify-between items-center px-4 py-3 shadow">
