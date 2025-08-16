@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 export const NavBar = ({ isSidebarOpen, toggleSidebar }) => {
     return (
         <div className="relative w-full">

@@ -4,7 +4,7 @@ import { NavBar } from "../common/NavBar"
 import { Dashboard } from "../components/pages/Dashboard"
 
 const Layout = () => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true)
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false)
   const toggleSidebar = () => setIsSidebarOpen(prev => !prev)
 
   return (
